@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    background-color: #132;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 25px;
+    color: #efef;
+    font-size: 30px;
+}
+
+/*Editing the whole form*/
+.main-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #222;
+    width: 300px;
+    margin-left: 510px;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    background-color:darkseagreen;
+}
+
+.main-data h4{
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.main-data .data{
+    display: block;
+    padding: 4px;
+    margin-left: 33px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    height: 27px;
+    border: none;
+}
+
+.main-data .submit{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 30%;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid #555;
+    border: none;
+}
+
+.showing-results{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin-left: 460px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.showing-results div{
+    margin-bottom: 5px;
+}
+
+.new-result{
+    color: #721;
+    font-size: 20px;
+}
+
+@media all and (max-width: 700px){
+    .main-data{
+        margin-left: 190px;
+    }
+    .showing-results{
+        margin-left: 150px;
+    }
+}
+
+@media all and (max-width: 400px){
+    .main-data{
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    .showing-results{
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+    header{
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+}
